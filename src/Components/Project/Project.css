@@ -1,0 +1,57 @@
+#project {
+    background : url(../../assets/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#project .project__overlay {
+    background-color: rgba(0, 0, 0,.7);
+    width: 100%;
+    height: 100%;
+    padding: 120px 0;
+    
+    
+}
+
+
+#project .project__overlay li button {
+  color: whitesmoke;
+  font-size: 20px;
+  border: none;
+}
+
+#project .project__overlay li .active {
+  background: #dc143c;
+  border: none;
+}
+
+
+
+.project__overlay {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 2rem 0;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title, .card-subtitle {
+  color: #fff;
+}
+
+.card-text {
+  color: #ccc;
+}
+
+.btn-outline-danger, .btn-outline-success {
+  display: flex;
+  align-items: center;
+}
+
+.btn-outline-danger svg, .btn-outline-success svg {
+  margin-left: 4px;
+}

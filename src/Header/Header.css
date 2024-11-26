@@ -1,0 +1,67 @@
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  background: transparent;
+  z-index: 9999;
+}
+
+.textDecoration {
+  text-decoration: none!important;
+}
+
+a {
+  text-decoration: underline!important;
+}
+
+/* Default styles */
+
+.navbar-custom.scrolled {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.logo {
+  width: 160px;
+}
+
+/* Adjust font sizes and padding for smaller screens */
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 0.9rem;
+    margin-right: 1rem;
+  }
+  .download-btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+  .logo {
+    width: 120px;
+  }
+
+  .bg {
+    background-color: #444;
+    padding: 6px 0px 15px 0px;
+    margin-top:  10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .bg {
+    background-color: #444;
+    padding: 6px 0px 15px 0px;
+    margin-top:  10px;
+  }
+  .nav-link {
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+  }
+  .download-btn {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+  .logo {
+    width: 100px;
+  }
+}

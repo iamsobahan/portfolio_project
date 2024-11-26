@@ -1,0 +1,53 @@
+#banner {
+  background: url(../Banner/../../assets/banner.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh; /* Full screen height */
+  position: relative;
+  cursor: pointer;
+}
+
+.banner__content {
+  padding-top: 300px;
+}
+
+.banner__content h1,
+h2 {
+  color: white;
+}
+
+.banner__icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.banner__icon svg {
+  display: block;
+  font-size: 28px;
+  color: darkgray;
+  margin: 20px 0;
+  transition: 0.4s ease;
+}
+
+.banner__icon svg:hover {
+  transform: scale(1.4);
+}
+
+
+@media (max-width: 576px){
+ #banner {
+  
+  height: 800px; /* Full screen height */
+ 
+}
+}
+
+
+@media (max-width: 768px){
+  #banner {
+  
+  height: 896px; /* Full screen height */
+ 
+}
+
+}
